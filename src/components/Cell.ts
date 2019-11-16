@@ -1,9 +1,4 @@
-import React from 'react';
-
-export interface Position {
-    x: number;
-    y: number;
-}
+import { Position } from '../types/types';
 
 export class Cell {
     private readonly position: Position;

@@ -1,6 +1,6 @@
 import React from 'react';
-import { World } from './World';
-import { Cell, Position } from './Cell';
+import { Cell } from './Cell';
+import { Position } from '../types/types';
 
 describe('Cell should', () => {
     it('have eight neighbors', ()=> {

@@ -1,6 +1,5 @@
-import React from 'react';
-import { Cell, Position } from './Cell';
-
+import { Cell } from './Cell';
+import { Position } from '../types/types';
 export class World {
     private cells: Cell[];
     private dimension: number;

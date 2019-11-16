@@ -1,6 +1,5 @@
-import React from 'react';
 import { World } from './World';
-import { Cell, Position } from './Cell';
+import { Cell } from './Cell';
 
 describe('World should', () => {
     it('be empty after initialization', () => {
@@ -67,7 +66,6 @@ describe('World should', () => {
         world.setAlive({x: 4, y: 3});
         world.setAlive({x: 3, y: 3});
         world.next();
-        expect(world.getLivingCells()).toHaveLength(3);
         expect(world.getCell(4,4).isAlive).toBeTruthy();
     });
 
