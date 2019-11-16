@@ -1,0 +1,6 @@
+.idea
+lib/**
+build
+node_modules
+Html
+www
